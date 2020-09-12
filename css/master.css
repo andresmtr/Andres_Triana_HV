@@ -3,16 +3,6 @@ body {
   font-style: normal;
 }
 
-.container_final {
-  width: 80%;
-  margin: auto;
-}
-
-.ROW {
-  width: 80%;
-  margin: auto;
-}
-
 
 .title_form {
   color: white;
@@ -37,10 +27,10 @@ body {
 
 nav a:hover, nav a:active {
 
-background:#1C5552; /*cambia el color cuando pasas el mouse*/
-color:#ffffff;
-font-family: 'IsabellaSansRegular';
-font-style: normal;
+  background:#1C5552; /*cambia el color cuando pasas el mouse*/
+  color:#ffffff;
+  font-family: 'IsabellaSansRegular';
+  font-style: normal;
 }
 
 h1 {
