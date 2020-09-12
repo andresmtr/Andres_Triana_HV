@@ -99,6 +99,11 @@ iframe {
   margin:auto;
 }
 
+button {
+  display:block;
+  margin:auto;
+}
+
 #footer_word {
   color: white;
   text-align: center;

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- FONT -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/isabella-sans" type="text/css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- NAV -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="title_form" href="index.html">HV <span id='tit'>Andrés Triana</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item active">
+              <a href="Proyectos.html" class="nav-link">Portafolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- END NAV -->
+      <br>
+      <br>
+      <!-- RESUMEN -->
+      
+      <div class="jumbotron text-center">
+          <h1>Portafolio</h1>
+      </div>
+
+      <!-- END RESUMEN -->
+      <br>
+      <!-- CONTENIDO -->
+      <div class="container">
+
+          <h3 class="left_world">Analisis COVID-19</h3><br>
+            <p>El ejercicio realizado de analisis sobre el COVID-19 de manera cuantitativa, muestra los contagios y fallecidos a nivel colombia y mundial, tomando como base los datos entregados
+              por los entes oficiales.
+            </p>
+            <p>Ese analisis fue realizado con Python, usando librerias como Pandas para la creación de los DataFrames y poder manejar los datos, Requests para llamar las bases de datos a usar, 
+              Json para poder crear los mapas con las respectivas coordenadas y Plotly para la creación de las graficas.
+            </p>
+            <br>
+            <div class="row">
+              <div class="col text-center">
+                <a href="https://andresmtr.github.io/Covid_Mundial_Colombia_Andres_Triana/" target="_blank" class="btn btn-secondary">Analisis COVID-19</a>
+              </div>
+            </div>
+            <br>
+
+            <h3 class="left_world">Calculadora en Python</h3><br>
+            <p>Calculadora desarrollada con Python y tkinter, funciona de manera local.
+            </p>
+            <img class="img-thumbnail img-fluid" width="200" height="200"  src="img/Calculadora.png" alt="">
+            <br>
+            <div class="row">
+              <div class="col text-center">
+                <a href="https://github.com/andresmtr/Calculadora_grafica_en_Python.git" target="_blank" class="btn btn-secondary">Calculadora</a>
+              </div>
+            </div>
+            <br>
+
+            <h3 class="left_world">Control inventario con PHP</h3><br>
+            <p>Desarrollo con PHP y MySQL, es un programa que sirve para hacer seguimiento a un invetarios, donde se puede crear, actualizar y borrar información. Así mismo, se pueden crear un PDF con la información
+            </p>
+            <br>
+            <div class="row">
+              <div class="col text-center">
+                <a href="https://github.com/andresmtr/Control_inventario_PHP.git" target="_blank" class="btn btn-secondary">Control de inventario</a>
+              </div>
+            </div>
+            <br>
+
+            <h3 class="left_world">Pagina grupo Musical</h3><br>
+            <p>Se desarrollo pagina web del grupo musical Saint Gaarder, creada en HTML y CSS
+            </p>
+            </p>
+            <img class="img-thumbnail img-fluid" width="200" height="200"  src="img/SaintGaarder.png" alt="">
+            <br>
+            <br>
+            <div class="row">
+              <div class="col text-center">
+                <a href="http://saintgaarder.epizy.com/index.html" target="_blank" class="btn btn-secondary">Saint Gaarder</a>
+              </div>
+            </div>
+
+      </div>
+      
+      <!-- END CONTENIDO -->
+      <br>
+      <!-- FOOTER -->
+      <footer class="bg-dark">
+        <p id='footer_word'>Design by Andrés Triana - 2020</p>
+      </footer>
+      <!-- END FOOTER -->
+    </body>
+</html>
