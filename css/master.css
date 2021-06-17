@@ -8,7 +8,7 @@ iframe {
 }
 
 .title_form {
-  color: white;
+  /*color: white;*/
   font-size: 1.5em;
   font-family: 'IsabellaSansRegular';
   font-style: normal;
@@ -16,14 +16,16 @@ iframe {
 
 /* Palabra del encabezado */
 #tit {
-  color: #BDBDBD;
+  color: black;
+  font-family: 'IsabellaSansRegular';
+  font-style: normal;
 }
 
 /* Primara parte del cuerpo del proyecto */
 
 nav a:hover, nav a:active {
 
-  background:#1C5552; /*cambia el color cuando pasas el mouse*/
+  background:#CDF0EA; /*cambia el color cuando pasas el mouse*/
   color:#ffffff;
   font-family: 'IsabellaSansRegular';
   font-style: normal;
@@ -105,7 +107,7 @@ button {
 }
 
 #footer_word {
-  color: white;
+  color: black;
   text-align: center;
   margin: auto;
   width: 80%;

@@ -15,11 +15,14 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <!-- JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- ChartJs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <!-- NAV -->
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="title_form" href="index.html">HV <span id='tit'>Andrés Triana</span></a>
+      <nav class="navbar navbar-expand-md navbar-light bg-light text-dark fixed-top">
+        <a href="index.html"><img border="0" src="img/logoAt.png" width="60" height="60"></a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,7 +56,7 @@
 
         <div class="row">
           <div class="col-12 col-md-3">
-            <h3 class="left_world">Información y contacto</h3></br>
+            <h3 class="left_world">Contacto</h3></br>
               <p class="n_world"><a href="https://www.linkedin.com/in/andres-mauricio-triana-reina" target="_blank"><img border="0" src="img/Linkedin.png" width="50" height="50"></a></p>
               <p class="n_world"><a href="https://github.com/andresmtr" target="_blank"><img border="0" src="img/git.png" width="40" height="40"></a></p>
               <p class="n_world"><a href="mailto:andrestrianareina@outlook.com" target="_blank"><img border="0" src="img/Correo.png" width="40" height="40"></a></p><br>
@@ -66,27 +69,45 @@
           </div>
 
         </div>
+        <div class="row">
+          <h3 class="left_world">Skills</h3><br><br>
+          <!-- <h4 id="color_h4" class="left_world">Ofimática</h4>
+            <p>Experiencia avanzada en el uso de hojas de cálculo con programas como Excel, para análisis de datos e interpretación de información cuantitativa,
+              construcción de resúmenes ejecutivos e informes de gran tamaño por medio de Word, con análisis de información cualitativa y elaboración de presentaciones para reuniones de toma de decisiones usando Power Point.</p>-->
+            <!-- <iframe width="880" height="480" src="graph/ofimatica.html" scrolling="no" frameborder="no" align="center" ></iframe> -->
+            <div class="col-12 col-md-6">
+              <canvas id = "ofimatica" width="100" height="100" ></canvas><br>
+            </div>
+            
+        <!-- <h4 id="color_h4" class="left_world">Programación</h4>
+            <p>Conocimiento básico e intermedio en diferentes lenguajes de programación donde se encuentra Python, para el análisis de datos, usando librerías como Numpy, Pandas, Matplotlib, Plotly entre otros, PHP para el desarrollo por medio de Apache y Vba para la construcción de macros en Excel</p>-->
+            <!-- <iframe width="880" height="480" src="graph/programación.html" scrolling="no" frameborder="no" align="center" ></iframe> -->
+            <div class="col-12 col-md-6">
+              <canvas id = "programacion" width="200" height="200" ></canvas><br>
+            </div>
+          <!-- <h4 id="color_h4" class="left_world">Data Science</h4>
+            <p>Conocimiento avanzado en visualización de datos por medio de Python con librerias como Plotly (también creación de dashboard interactivas) y creación de gráficas por medio de Seaborn, Matplotlib y Plotly </p>-->
+            <!-- <iframe width="880" height="480" src="graph/Data_Science.html" scrolling="no" frameborder="no" align="center" ></iframe> -->
+            <div class="col-12 col-md-6">
+              <canvas id = "science" width="200" height="200" ></canvas><br>
+            </div>
+            
+          <!-- <h4 id="color_h4" class="left_world">Desarrollo web</h4>
+            <p>Conocimiento en desarrollo web con aprobación de un curso otorgada por Google titulada "Curso de introducción al desarrollo web: HTML y CSS"(<a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank">Enlace</a>: ID credencial LUL X72 FH5) </p>-->
+            <!-- <iframe width="880" height="480" src="graph/desarrollo_web.html" scrolling="no" frameborder="no" align="center" ></iframe> -->
+            <div class="col-12 col-md-6">
+              <canvas id = "develop" width="200" height="200" ></canvas><br>
+            </div>
+            
+            
 
-            <h3 class="left_world">Skills</h3><br>
-            <!-- <h4 id="color_h4" class="left_world">Ofimática</h4>
-              <p>Experiencia avanzada en el uso de hojas de cálculo con programas como Excel, para análisis de datos e interpretación de información cuantitativa,
-                construcción de resúmenes ejecutivos e informes de gran tamaño por medio de Word, con análisis de información cualitativa y elaboración de presentaciones para reuniones de toma de decisiones usando Power Point.</p>-->
-              <iframe width="880" height="480" src="graph/ofimatica.html" scrolling="no" frameborder="no" align="center" ></iframe>
-          <!-- <h4 id="color_h4" class="left_world">Programación</h4>
-              <p>Conocimiento básico e intermedio en diferentes lenguajes de programación donde se encuentra Python, para el análisis de datos, usando librerías como Numpy, Pandas, Matplotlib, Plotly entre otros, PHP para el desarrollo por medio de Apache y Vba para la construcción de macros en Excel</p>-->
-              <iframe width="880" height="480" src="graph/programación.html" scrolling="no" frameborder="no" align="center" ></iframe>
-            <!-- <h4 id="color_h4" class="left_world">Data Science</h4>
-              <p>Conocimiento avanzado en visualización de datos por medio de Python con librerias como Plotly (también creación de dashboard interactivas) y creación de gráficas por medio de Seaborn, Matplotlib y Plotly </p>-->
-              <iframe width="880" height="480" src="graph/Data_Science.html" scrolling="no" frameborder="no" align="center" ></iframe>
-            <!-- <h4 id="color_h4" class="left_world">Desarrollo web</h4>
-              <p>Conocimiento en desarrollo web con aprobación de un curso otorgada por Google titulada "Curso de introducción al desarrollo web: HTML y CSS"(<a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank">Enlace</a>: ID credencial LUL X72 FH5) </p>-->
-              <iframe width="880" height="480" src="graph/desarrollo_web.html" scrolling="no" frameborder="no" align="center" ></iframe>
+        </div>
+
   
             <h3 class="left_world">Educación</h3><br>
               <ul>
                 <li>Profesional: UNAD - ingeniería de sistemas </li>
                 <li>Tecnólogo: SENA - Tecnología en análisis y desarrollo de sistemas de información </li>
-                <li>Bachiller: Colegio Distrital Castilla (énfasis en comunicación y gestión administrativa y financiera)</li>
               </ul>
               <br>
             <h3 class="left_world">Herramientas</h3><br>
@@ -94,6 +115,8 @@
                 <li>Anaconda - Jupyter </li>
                 <li>Google Colab</li>
                 <li>PostgreSQL</li>
+                <li>Visual Studio Code</li>
+                <li>Github/li>
                 <li>Microsoft Office</li>
               </ul>
               <br>
@@ -114,7 +137,7 @@
               <p></p>
               <div class="row">
                 <table class="table">
-                  <thead class="thead-dark">
+                  <thead class="thead-ligth">
                     <tr>
                       <th scope="col">No.</th>
                       <th scope="col">Empresa</th>
@@ -162,9 +185,80 @@
       <!-- END CONTENIDO -->
       <br>
       <!-- FOOTER -->
-      <footer class="bg-dark">
-        <p id='footer_word'>Design by Andrés Triana - 2020</p>
+      <footer class="bg-light text-dark">
+        <p id='footer_word'>Design by Andrés Triana - 2021</p>
       </footer>
       <!-- END FOOTER -->
     </body>
+    <script>
+      let ofi = document.getElementById('ofimatica').getContext("2d");
+      let pro = document.getElementById('programacion').getContext("2d");
+      let science = document.getElementById('science').getContext("2d");
+      let devl = document.getElementById('develop').getContext("2d");
+
+      // graph ofimatica 
+
+      var oficamt = new Chart (ofi,{
+        type:"bar",
+        data: {
+          labels: ["Power Point", "Word", "Excel"],
+          datasets: [
+            {
+              label: "Ofimatica",
+              backgroundColor: "rgb(146,168,176)",
+              data: [75, 80, 90]
+            }
+          ]
+        }
+      })
+
+       // graph programación
+
+      var progra = new Chart (pro,{
+        type:"bar",
+        data: {
+          labels: ["Vba", "PHP", "JavaScript", "Python"],
+          datasets: [
+            {
+              label: "Lenguajes de programación",
+              backgroundColor: "rgb(103,185,214)",
+              data: [30, 50, 60, 75]
+            }
+          ]
+        }
+      })
+
+        // graph Data science
+
+             var scien = new Chart (science,{
+        type:"bar",
+        data: {
+          labels: ["Sklearn", "SQL", "Seaborn/Matplotlib/Plotly", "Numpy", "Pandas", "Python"],
+          datasets: [
+            {
+              label: "Data Science",
+              backgroundColor: "rgb(83,141,160)",
+              data: [30, 50, 65, 65, 65, 75]
+            }
+          ]
+        }
+      })
+
+        // graph Desarrollo web - Frontend
+
+        var devel = new Chart (devl,{
+        type:"bar",
+        data: {
+          labels: ["Bootstrap", "CSS", "JavaScript", "HTML"],
+          datasets: [
+            {
+              label: "Desarrollo Web - Frontend",
+              backgroundColor: "rgb(49,190,238)",
+              data: [50, 60, 60, 70]
+            }
+          ]
+        }
+      })
+
+    </script>
 </html>
