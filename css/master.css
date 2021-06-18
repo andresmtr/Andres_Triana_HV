@@ -4,7 +4,14 @@ body {
 }
 
 iframe {
-  max-width: 100%;
+  display:block;
+  margin:auto;
+}
+
+.portada {
+  text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 .title_form {
@@ -96,11 +103,6 @@ li {
   text-align: left;
 }
 
-iframe {
-  display:block;
-  margin:auto;
-}
-
 button {
   display:block;
   margin:auto;
@@ -115,6 +117,7 @@ button {
 }
 
 .graph {
+  width: 90%;
   margin: auto;
   text-align: center;
 }
@@ -125,9 +128,17 @@ img{
 }
 
 .left_world {
+  width: 90%;
+  margin: auto;
   text-align: left;
 }
 
 .n_world {
   font-weight: bold;
 }
+
+
+/* table {
+  width: 90%;
+  margin: auto;
+} */
