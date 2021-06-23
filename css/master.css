@@ -154,8 +154,8 @@ img{
 }
 
 .img_skills_1 {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   background-image: url("../img/Office.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,7 +165,8 @@ img{
 
 .img_skills_1:before {
   content: "";
-  height: 100%;
+  height: 80%;
+  width: 80%;
   position: absolute;
   top: 0;
   left: 0;
@@ -175,7 +176,8 @@ img{
 }
 
 .img_skills_2 {
-  height: 100%;
+  height: 80%;
+  width: 80%;
   background-image: url("../img/develop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -185,7 +187,8 @@ img{
 
 .img_skills_2:before {
   content: "";
-  height: 100%;
+  height: 80%;
+  width: 80%;
   position: absolute;
   top: 0;
   left: 0;
@@ -196,7 +199,8 @@ img{
 
 
 .img_skills_3 {
-  height: 100%;
+  height: 80%;
+  width: 80%;
   background-image: url("../img/coding.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,7 +210,8 @@ img{
 
 .img_skills_3:before {
   content: "";
-  width: 100%;
+  height: 80%;
+  width: 80%;
   /* min-height:100vh; */
   position: absolute;
   top: 0;
@@ -217,7 +222,8 @@ img{
 }
 
 .img_skills_4 {
-  height: 100%;
+  height: 80%;
+  width: 80%;
   background-image: url("../img/datos.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,7 +233,8 @@ img{
 
 .img_skills_4:before {
   content: "";
-  width: 100%;
+  height: 80%;
+  width: 80%;
   /* min-height:100vh; */
   position: absolute;
   top: 0;
