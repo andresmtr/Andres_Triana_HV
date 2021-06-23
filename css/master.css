@@ -10,8 +10,14 @@ iframe {
 
 .portada {
   text-align: center;
-  width: 90%;
+  width: 100%;
   margin: auto;
+  
+}
+
+.color_backgrounf_1{
+  background-color: #DFEEEA;
+  width: 100%;
 }
 
 .title_form {
@@ -142,3 +148,91 @@ img{
   width: 90%;
   margin: auto;
 } */
+
+.h2_white {
+  color: #FFFFFF;
+}
+
+.img_skills_1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/Office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+.img_skills_1:before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #52c4df, #ad55c1);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.img_skills_2 {
+  height: 100%;
+  background-image: url("../img/develop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+.img_skills_2:before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #52c4df, #ad55c1);
+  opacity: 1;
+  z-index: -1;
+}
+
+
+.img_skills_3 {
+  height: 100%;
+  background-image: url("../img/coding.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+.img_skills_3:before {
+  content: "";
+  width: 100%;
+  /* min-height:100vh; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #52c4df, #ad55c1);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.img_skills_4 {
+  height: 100%;
+  background-image: url("../img/datos.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+.img_skills_4:before {
+  content: "";
+  width: 100%;
+  /* min-height:100vh; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #52c4df, #ad55c1);
+  opacity: 0.5;
+  z-index: -1;
+}
