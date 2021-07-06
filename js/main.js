@@ -1,12 +1,12 @@
 //  animation escritura
-var typed = new Typed('.typed', {
-    strings: ['Ingeniero de sistemas', 'Analista de datos', 'Desarrollo', 'Monitoreo y seguimiento'],
-    typeSpeed: 20,
-    backSpeed: 20,
-    fadeOut: true,
-    loop: true,
-    // showCursor: false
-  });
+// var typed = new Typed('.typed', {
+//     strings: ['Ingeniero de sistemas', 'Analista de datos', 'Desarrollo', 'Monitoreo y seguimiento'],
+//     typeSpeed: 20,
+//     backSpeed: 20,
+//     fadeOut: true,
+//     loop: true,
+//     // showCursor: false
+//   });
 
 // nombre and
 
