@@ -1,214 +1,145 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrés Triana</title>
+    <title>Andres Triana</title>
 
-    <!-- FONT -->
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/isabella-sans" type="text/css"/>
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/master.css">
-    
-    <!-- ICON -->
-    <link rel="ICON" href="img/logoAt.ico">
-    
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-    <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!-- Slider -->
+        <script src="js/jquery.flexslider-min.js"></script>
+</head>
+<body>
+
+    <!-- NAV -->
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo"><img src="icon/logoAt.png" width="40" height="40"></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="work.html" class="nav-link">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="acerca.html" class="nav-link">Acerca</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li> -->
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>   
+
+    <!-- END NAV -->
+    <!-- CONTENIDO -->
+    <div>
+        <!-- PORTADA -->
+        <div class="div-portada" >
+            <h2 class="word-carrera" id="carrera">
+                <!-- Ingeniero de sistemas -->
+                <span class="typed"></span>
+            </h2>
+            <br>
+            <h2 class="nombre-and" id="name_a">
+                Andrés Triana
+            </h2>
+        </div>
+
+        <!--  END PORTADA -->
+
+        <!-- ABOUT ME -->
+
+        <div class="div-about-me">
+            <h2 class="word-about" id="me">
+                Acerca de mi
+            </h2>
+            <br>
+            <p class="about-p">Ingeniero de sistemas con destacada experiencia en cargos como evaluación y monitoreo, realizando actividades como el manejo de bases de datos para construcción de reportes gerenciales, indicadores de avance, visualización de datos y seguimientos continuos de información. Fortalezas para interpretar, analizar y diagnosticar avances de procesos, así como para diseñar e implementar planes operativos orientados a resultados para la toma de decisiones oportunas.</p>
+            <h4 class="word-about"><a href="acerca.html" >Leer más</a></h4>
+        </div>
+
+        <!--  END ABOUT -->
+
+        <!-- SKILLS -->
+
+        <div class="div-skills">
+            <h2 class="word-about" id="skill">
+                Skills
+            </h2>
+            <!-- <div class = "grid_tool">
+                <p class="n_world"><img src="icon/office.png" width="250" height="250"> </img></p>
+                <p class="n_world"><img src="icon/office.png" width="250" height="250"> </img></p>
+            </div> -->
+            <!-- <div class = "grid_tool">
+                <p class="n_world"><img src="icon/office.png" width="250" height="250"> </img></p>
+                <p class="n_world"><img src="icon/office.png" width="250" height="250"> </img></p>
+            </div> -->
+                <div class = "grid_skill">
+                    <h3><img id="ofimatica" src="" width="150" height="150"></h3>
+                    <h3><img id="des-web" src="" width="150" height="150"></h3>
+                    <h3><img id="data-science" src="" width="150" height="150"></h3>
+                    <h3><img id="develop" src="" width="150" height="150"></h3>
+
+                    <!-- <p class=""><a></a><img src="" width="60" height="60"></a>Ofimatica</p>
+                    <p class=""><a></a><img src="" width="60" height="60"></a>Desarrollo Web - FrontEnd</p>
+                    <p class=""><a></a><img src="" width="60" height="60"></a>Data Science</p>
+                    <p class=""><a></a><img src="" width="60" height="60"></a>Programación</p> -->
+                </div>
+        </div>
+
+        <!-- END SKILLS -->
+    </div>
+    <br>
+    <!-- END CONTENIDO -->
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div>
+            <hr>
+        </div>
+        <div>
+            <h3>Contacto</h3>
+        </div>
+        <br>
+        <br>
+        <div class = "grid_tool">
+            <p class=""><a href="https://www.linkedin.com/in/andres-mauricio-triana-reina" target="_blank"><img src="icon/Linkedin.png" width="50" height="50"></a></p>
+            <p class=""><a href="https://github.com/andresmtr" target="_blank"><img src="icon/git.png" width="40" height="40"></a></p>
+            <p class=""><a href="mailto:andrestrianareina@outlook.com" target="_blank"><img src="icon/Correo.png" width="40" height="40"></a></p>
+        </div>
+
+        <p>Design by Andrés Triana - 2021</p>
+
+    </footer>
+
+    <!-- END FOOTER -->
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
     <!-- JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
 
-  </head>
-  <body>
-    <!-- NAV -->
-      <nav class="navbar navbar-expand-md navbar-light bg-light text-dark fixed-top">
-        <a href="index.html"><img border="0" src="img/logoAt.png" width="40" height="40"></a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="index.html" class="nav-link">Inicio</a>
-            </li>
-            <li class="nav-item active">
-              <a href="Proyectos.html" class="nav-link">Portafolio</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- END NAV -->
-
-      <br>
-      <br>
-      <br>
-
-      <!-- RESUMEN -->
-      
-      <div class="portada text-center">
-      <!-- <div class="jumbotron text-center"> -->
-          <!-- <h1>Andrés Triana</h1> -->
-          <div>
-                <img class="img-thumbnail img-fluid" width="1366" height="366"  src="img/Portada.png" alt="center">
-          </div>
-      </div>
-
-      <!-- END RESUMEN -->
-      <br>
-      <!-- CONTENIDO -->
-      <div class="container">
-
-        <div class="row">
-          <div class="col-12 col-md-3">
-            <h2 class="left_world">Contacto</h2></br>
-              <p class="n_world"><a href="https://www.linkedin.com/in/andres-mauricio-triana-reina" target="_blank"><img border="0" src="img/Linkedin.png" width="50" height="50"></a></p>
-              <p class="n_world"><a href="https://github.com/andresmtr" target="_blank"><img border="0" src="img/git.png" width="40" height="40"></a></p>
-              <p class="n_world"><a href="mailto:andrestrianareina@outlook.com" target="_blank"><img border="0" src="img/Correo.png" width="40" height="40"></a></p><br>
-          </div>
-
-          <div class="col-12 col-md-9">
-            <h2 class="left_world">Perfil</h2><br>
-              <p>Ingeniero de sistemas con destacada experiencia en cargos como evaluación y monitoreo, realizando actividades como el manejo de bases de datos para construcción de reportes gerenciales, indicadores de avance, visualización de datos y seguimientos continuos de información. Fortalezas para interpretar, analizar y diagnosticar avances de procesos, así como para diseñar e implementar planes operativos orientados a resultados para la toma de decisiones oportunas.</p>
-          </div>
-          <br>
-
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-12">
-            <h2 class="left_world">Skills</h2><br><br>
-          </div>
-          
-            <div class="col-12 col-md-6 img_skills_1">
-
-              <!-- ofimatica -->
-
-                <p class="n_world"><img src="icon/office.png" width="250" height="250"> </img></p>
-
-            </div>
-            
-            <div class="col-12 col-md-6 img_skills_2">
-
-              <!-- programación-->
-
-              <p class="n_world"><img src="icon/programacion.png" width="250" height="250"> </img></p>
-
-            </div>
-            
-            <div class="col-12 col-md-6 img_skills_3">
-
-              <!-- Web - Frontend -->
-
-              <p class="n_world"><img src="icon/web.png" width="250" height="250"> </img></p>
-
-            </div>
-
-            <div class="col-12 col-md-6 img_skills_4">
-              
-              <!-- Data science -->
-
-              <p class="n_world"><img src="icon/datascience.png" width="250" height="250"> </img></p>
-
-            </div>
-            <br>
-        </div>
-            <br>
-
-  
-            <h2 class="left_world">Educación</h2><br>
-              <ul>
-                <li>Profesional: UNAD - ingeniería de sistemas </li>
-                <li>Tecnólogo: SENA - Tecnología en análisis y desarrollo de sistemas de información </li>
-              </ul>
-              <br>
-            <h2 class="left_world">Herramientas</h2><br><br>
-              <div class = "grid_tool">
-                <p class="n_world"><img src="icon/anaconda.png" width="50" height="50"></a></p>
-                <p class="n_world"><img src="icon/google_colab.png" width="60" height="50"></a></p>
-                <p class="n_world"><img src="icon/postgreSQL.png" width="60" height="50"></a></p>
-                <p class="n_world"><img src="icon/visual.png" width="50" height="50"></a></p>
-                <p class="n_world"><img src="img/git.png" width="50" height="50"></a></p>
-                <p class="n_world"><img src="icon/office_app.png" width="50" height="50"></a></p>
-              </div>
-              <br>
-            <h2 class="left_world">Cursos</h2><br>
-              <ul>
-                <li>Git and Github from scratch <a href="https://www.udemy.com/certificate/UC-99538a2c-3350-4c7d-8a00-ecd924b0c8c0/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank">(Enlace)</a></li>	
-                <li>Comprehensive SQL Bootcamp : Beginner to Advanced <a href="https://www.udemy.com/certificate/UC-0d827204-bc4e-4fb1-91f9-2f8ab5996aa5/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank">(Enlace)</a></li>	
-                <li>SQL course <a href="https://www.sololearn.com/certificates/course/en/13157847/1060/landscape/png" target="_blank">(Enlace)</a></li>	
-                <li>JavaScript course <a href="https://www.sololearn.com/Certificate/1024-13157847/pdf/" target="_blank">(Enlace)</a></li>	
-                <li>Interactive Python Dashboards with Plotly and Dash <a href="https://www.udemy.com/certificate/UC-d7bb3ff1-a7d9-40d1-8383-102e0035aadd/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank">(Enlace)</a></li>
-                <li>Python for Data Sciences and machine learning Bootcamp <a href="https://www.udemy.com/certificate/UC-1a70a55c-a385-4bf3-a840-8857dfe7a36f/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email" target="_blank">(Enlace)</a></li>
-                <li>Big Data Analytics: Opportunities, Challenges and the future <a href="https://www.futurelearn.com/certificates/6tx67ok" target="_blank">(Enlace)</a></li>
-                <li>Google Curso de introducción al desarrollo web: HTML y CSS <a href="https://learndigital.withgoogle.com/activate/validate-certificate-code" target="_blank">(Enlace)</a>: ID credencial LUL X72 FH5)</li>
-                <li>Python Tutorial Course <a href="https://www.sololearn.com/Certificate/1073-13157847/pdf" target="_blank">(Enlace)</a></li>
-              </ul>
-              <br>
-            <h2 class="left_world">Experiencia Laboral</h2><br>
-              <p></p>
-              <div class="row">
-                <table class="table">
-                  <thead class="thead-ligth">
-                    <tr>
-                      <th scope="col">No.</th>
-                      <th scope="col">Empresa</th>
-                      <th scope="col">Cargo</th>
-                      <th scope="col">Inicio</th>
-                      <th scope="col">Final</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>OIM – Organización internacional para las migraciones</td>
-                      <td>Profesional sistemas de información</td>
-                      <td>jun-2018</td>
-                      <td>jun-2021</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>FUPAD/FUCOLDE</td>
-                      <td>Profesional de apoyo a la gerencia</td>
-                      <td>mar-2018</td>
-                      <td>jun-2018</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Asociación Colombiana de distribuidores películas</td>
-                      <td>Administrador base de datos Cadbox</td>
-                      <td>ago-2017</td>
-                      <td>mar-2018</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4</th>
-                      <td>FUPAD/FUCOLDE</td>
-                      <td>Analista de evaluación y monitoreo </td>
-                      <td>abr-2013</td>
-                      <td>jul-2017</td>
-                    </tr>
-                    
-                  </tbody>
-                </table>
-        </div> 
-
-            <br>
-      </div>
-      <!-- END CONTENIDO -->
-      <br>
-      <!-- FOOTER -->
-      <footer class="bg-light text-dark">
-        <p id='footer_word'>Design by Andrés Triana - 2021</p>
-      </footer>
-      <!-- END FOOTER -->
-
-    <!-- ChartJs -->
-    <script type ="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script type ="text/javascript" src="js/graphs.js"></script>
-    </body>
+</body>
 </html>
