@@ -279,8 +279,6 @@ a {
     border-radius: 10px;
     text-align: right;
     background-color: #1a46df;
-    /* background-repeat: no-repeat; */
-    /* background-size: 50% 100%; */
     text-align: center;
 }
 
@@ -293,6 +291,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 100px;
     grid-gap: 20px;
+    padding: 20px .5em;
   }
 
   /* Experiencia laboral */

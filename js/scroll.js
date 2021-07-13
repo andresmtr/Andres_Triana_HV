@@ -1,7 +1,7 @@
 window.sr = ScrollReveal();
     sr.reveal('.navbar',{
-        duration: 2000,
-        origin: 'bottom',
+        duration: 500,
+        origin: 'left',
         distance: '-100px'
     });
 
