@@ -6,127 +6,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andres Triana</title>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-        <!-- BOOTSTRAP -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Javascript animation parts  ScrollRevale-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!-- Slider -->
-        <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Javascript for ainmation words -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
+    <div class="color-backgraound">
+        <!-- NAV -->
+        <section>
+            <header class="header">
+                <nav class="navbar">
+                    <a href="index.html" class="nav-logo"><img src="icon/logoAt.png" width="40" height="40"></a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="acerca.html" class="nav-link">Acerca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="work.html" class="nav-link">Proyectos</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </header>   
+        </section>
 
-    <!-- NAV -->
 
-    <header class="header">
-        <nav class="navbar">
-            <a href="index.html" class="nav-logo"><img src="icon/logoAt.png" width="40" height="40"></a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="work.html" class="nav-link">Trabajos</a>
-                </li>
-                <li class="nav-item">
-                    <a href="acerca.html" class="nav-link">Acerca</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a href="contacto.html" class="nav-link">Contacto</a>
-                </li> -->
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        <!-- Portada -->
+        <section>
+            <div class="portada">
+
+                <h2 class="h2Letter">
+                    <span class="typed"></span>
+                </h2>
+
+                <h3 class="h3Letter" id ="name_a">
+                    Andrés Triana
+                </h3>
+
             </div>
-        </nav>
-    </header>   
+        </section>
 
-    <!-- END NAV -->
-    <!-- CONTENIDO -->
-    <div class="backAllPage">
-        <!-- PORTADA -->
-        <div class="div-portada" >
-            <h2 class="word-carrera" id="carrera">
-                <!-- Ingeniero de sistemas -->
-                <span class="typed"></span>
-            </h2>
-            <br>
-            <h2 class="nombre-and" id="name_a">
-                Andrés Triana
-            </h2>
-        </div>
 
-        <!--  END PORTADA -->
-
-        <!-- ABOUT ME -->
-
-        <div class="div-about-me">
-            <h2 class="word-about" id="me">
-                Acerca de mi
-            </h2>
-            <p class="about-p">Ingeniero de sistemas con destacada experiencia en cargos como evaluación y monitoreo, realizando actividades como el manejo de bases de datos para construcción de reportes gerenciales, indicadores de avance, visualización de datos y seguimientos continuos de información. Fortalezas para interpretar, analizar y diagnosticar avances de procesos, así como para diseñar e implementar planes operativos orientados a resultados para la toma de decisiones oportunas.</p>
-            <h4 class="word-about"><a href="acerca.html" >Leer más</a></h4>
-        </div>
-
-        <!--  END ABOUT -->
-
-        <!-- SKILLS -->
-
-        <div class="div-skills">
-            <h2 class="word-about" id="skill">
-                Skills
-            </h2>
-                <div class = "grid_skill">
-                    <h3><img id="ofimatica" src="" width="150" height="150"></h3>
-                    <h3><img id="des-web" src="" width="150" height="150"></h3>
-                    <h3><img id="data-science" src="" width="150" height="150"></h3>
-                    <h3><img id="develop" src="" width="150" height="150"></h3>
+        <!-- About -->
+        <section>
+            <div class="about">
+                <div class="wordAbout">
+                    <h3 id ="me">Acerca</h3>
                 </div>
-        </div>
+                <div class="p">
+                    <p>Ingeniero de sistemas con destacada experiencia en cargos como evaluación y monitoreo, realizando actividades como el manejo de bases de datos para construcción de reportes gerenciales, indicadores de avance, visualización de datos y seguimientos continuos de información. Fortalezas para interpretar, analizar y diagnosticar avances de procesos, así como para diseñar e implementar planes operativos orientados a resultados para la toma de decisiones oportunas.</p>
+                </div>
+            </div>
 
-        <!-- END SKILLS -->
+        </section>
+
+
+        <!-- Skills -->
+        <section>
+
+                <div class="skills">
+                    <div>
+                        <h3 class="wordSkill" id="skill">Skills</h3>
+                    </div>
+                    <div class="container row wordEnterSkills">
+                        <!-- Ofimatica -->
+                        <div class="col-md-6 col-xs-6">
+                            <div>
+                                <h4>Ofimatica</h4>
+                            </div>
+                            <div class="gridOfimatica">
+                                <p class=""><img src="icon/excel.svg" width="50" height="50"></p>
+                                <p class=""><img src="icon/word.svg" width="50" height="50"></p>
+                                <p class=""><img src="icon/powerpoint.svg" width="50" height="50"></p>
+                            </div>
+                        </div>
+                        <!-- Desarrollo Web -->
+                        <div class="col-md-6 col-xs-6">
+                            <div >
+                                <h4>Desarrollo Web - FrontEnd </h4>
+                            </div>
+                            <div class="gridWeb">
+                                <p class=""><img src="icon/html-5.svg" width="50" height="50"></p>
+                                <p class=""><img src="icon/css-3.svg" width="50" height="50"></p>
+                                <p class=""><img src="icon/Bootstrap_logo.svg" width="50" height="50"></p>
+                                <p class=""><img src="icon/javascript.svg" width="50" height="50"></p>
+                            </div>
+                        </div>
+                        <!-- Data Science -->
+                        <div class="col-md-6 col-xs-6">
+                            <div>
+                                <h4>Data Science</h4>
+                            </div>
+                            <div class="gridData">
+                                <p class=""><img src="icon/Python.svg" width="50" height="50"></p>
+                                <p class=""><img src="icon/Matplotlib.svg" width="50" height="50"></p>
+                                <p class=""><img src="icon/numpy.svg" width="80" height="50"></p>
+                                <p class=""><img src="icon/Pandas.svg" width="80" height="50"></p>
+                                <p class=""><img src="icon/plotly.svg" width="80" height="50"></p>
+                            </div>
+                        </div>
+                        <!-- Programación -->
+                        <div class="col-md-6 col-xs-6">
+                            <div>
+                                <h4>Programación</h4>
+                            </div>
+                            <div class="gridDev">
+                                <p class=""><img src="icon/Python.svg" width="50" height="50"></p>
+                                <p class=""><img src="icon/javascript.svg" width="50" height="50"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <section>
+            <div class="footer">
+                <div class="wordContac">
+                    <h3>Contacto</h3>
+                </div>
+                <br>
+                <div class = "grid_tool">
+                    <p class=""><a href="https://www.linkedin.com/in/andres-mauricio-triana-reina" target="_blank"><img src="icon/Linkedin.svg" width="50" height="50"></a></p>
+                    <p class=""><a href="https://github.com/andresmtr" target="_blank"><img src="icon/github.svg" width="50" height="50"></a></p>
+                    <p class=""><a href="mailto:andrestrianareina@outlook.com" target="_blank"><img src="icon/correo.svg" width="50" height="50"></a></p>
+                </div>
+                <p class="pDesing">Design by Andrés Triana - 2021</p>
+            </div>
+
+        </section>
+
     </div>
-    <!-- <br> -->
-    <!-- END CONTENIDO -->
 
-    <!-- FOOTER -->
-
-    <footer class="footer">
-        <!-- <div>
-            <hr>
-        </div> -->
-        <br>
-        <div>
-            <h3>Contacto</h3>
-        </div>
-        <br>
-        <br>
-        <div class = "grid_tool">
-            <p class=""><a href="https://www.linkedin.com/in/andres-mauricio-triana-reina" target="_blank"><img src="icon/Linkedin.png" width="50" height="50"></a></p>
-            <p class=""><a href="https://github.com/andresmtr" target="_blank"><img src="icon/git.png" width="40" height="40"></a></p>
-            <p class=""><a href="mailto:andrestrianareina@outlook.com" target="_blank"><img src="icon/Correo.png" width="40" height="40"></a></p>
-        </div>
-
-        <p>Design by Andrés Triana - 2021</p>
-
-    </footer>
-
-    <!-- END FOOTER -->
-
-
+    
+    <!-- Librerias -->
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
-    <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    
-    <script src="js/main.js"></script>
-    <script src="js/nav.js"></script>
+    <!-- Javascripts -->
+        <script src="js/main.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/nav.js"></script>
 
 </body>
 </html>

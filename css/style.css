@@ -19,22 +19,16 @@ a {
     text-decoration: none;
 }
 
-.backAllPage{
-    background-color: black;
-}
-
-
-
-.header{
-    border-bottom: 1px solid #AFAAAA; /* border header */
-}
+/* .header{
+    border-bottom: 1px solid #AFAAAA;                border header
+} */
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    background-color: #000000;
+    background-color: rgb(2,9,90);
 }
 
 .hamburger {
@@ -84,7 +78,8 @@ a {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #000000; /* Color fondo */
+        /* background-color: #000000;  */
+        background-color: rgb(2,9,90);
         width: 100%;
         border-radius: 10px;
         text-align: center;
@@ -121,122 +116,130 @@ a {
     }
 }
 
+/* Color Backgraoung page */
 
-/* Contenido */
+.color-backgraound{
+    /* background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(105,143,255,1) 68%, rgba(0,47,255,0.9738270308123249) 100%); */
+    /* background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(89,91,98,1) 91%, rgba(2,9,37,0.9738270308123249) 100%); */
+    background: rgb(73,157,214);
+    background: linear-gradient(180deg, rgba(73,157,214,1) 0%, rgba(26,70,223,1) 43%, rgba(2,9,37,0.9738270308123249) 100%);
+
+    /* Color font */
+    color:#FFFFFF;
+}
 
 /* Portada */
 
-.div-portada {
-    background-image: url("../background/portada.jpg");
-
-    /* background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(191, 191, 191, 1) 85%, 
-        rgba(255, 255, 255, 1)
-    ); */
-    /* width: 100%;
-    height: 100%; */
-    width: 100vw;
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
-
+.portada{
     
+    width:95%;
+    height:95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: right;
+    background-color: #1a46df;
+    background-image: url('../background/me.svg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    /* background-position: 2cm bottom; */
 }
 
-.word-carrera{
-    color: #FFFFFF;
-    /* color: #000000; */
+.h2Letter{
     padding: 200px .5em;
 }
 
-.nombre-and{
-    color: #FFFFFF;
-    padding: 10px .5em;
+.h3Letter{
+    padding: 85px .5em;
 }
 
+/* About */
 
-/* About me */
-
-.div-about-me {
-    background-image: url("../background/about.jpg");
-    /* background-image: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(242, 121, 121, 1) 70%, 
-        rgba(240, 40, 40, 1)
-    ); */
-    /* width: 100%;
-    height: 100%; */
-    width: 100vw;
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
+.about{
+    width:95%;
+    height:95%;
+    /* padding: 50px .5em; */
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: justify;
 }
 
-.word-about{
-    color: #000;
+.wordAbout{
     padding: 50px .5em;
 }
 
-.word-read-more{
+.p{
+    padding: 50px .5em;
+    text-align: justify;
+}
+
+.skills{
+    width:95%;
+    height:95%;
+    /* padding: 50px .5em; */
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
     color: #000;
-    padding: 10px .5em;
 }
 
-.about-p{
-    color: #000;
-    padding: 1px .5em;
+.wordSkill{
+    text-align: left;
+    /* color: #000000; */
+    padding: 50px .5em;
 }
 
-/* skilles*/
-
-
-.div-skills {
-    background-image: url("../background/skills.jpg");
-    /* background-image: linear-gradient(
-        180deg,
-        rgba(240, 40, 40, 1) 0%,
-        rgba(242, 121, 121, 1) 85%, 
-        rgba(255, 255, 255, 1)
-    ); */
-    /* width: 100%;
-    height: 100%; */
-    width: 100vw;
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
+.wordEnterSkills{
+    text-align: center;
 }
 
-.grid_skill{
+.gridOfimatica{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px .5em;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
+
+
+.gridWeb{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px .5em;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
+
+.gridData{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px .5em;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
+
+.gridDev{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 250px;
-    grid-gap: 20px;
-  }
+    padding: 20px .5em;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
 
+/* Footer */
 
-
-
-
-/* footer */
-
-footer{
+.footer{
     text-align: center;
     display:block;
     margin:auto;
     /* background-color: #FFFFFF; */
     /* height: 90%; */
-    
-    
 }
 
 .grid_tool{
@@ -246,30 +249,44 @@ footer{
     grid-gap: 20px;
   }
 
-hr{
-    height: 10px;
-    background-color: black;
-}
+  .wordContac{
+    padding: 50px .5em;
+  }
 
-/* Work page */
+  .pDesing{
+    padding: 20px .5em;
+  }
 
-.image_work{
+/* PAGINA ACERCA */
+
+/* resumen */
+
+.resumen{
+    width:95%;
+    height:95%;
+    /* padding: 50px .5em; */
+    margin: 10px auto;
+    border-radius: 10px;
     text-align: center;
 }
 
-.background-1{
-    background-color: #E8F0F2;
-}
+/* Educacion */
 
-.background-2{
-    background-color: #A2DBFA;
-}
-
-.h3-center{
+.educacion{
+    width:95%;
+    height:95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: right;
+    background-color: #1a46df;
+    /* background-repeat: no-repeat; */
+    /* background-size: 50% 100%; */
     text-align: center;
 }
 
-/* About page */
+.wordEducation{
+    padding: 50px .5em;
+  }
 
 .grid_school{
     display: grid;
@@ -278,18 +295,110 @@ hr{
     grid-gap: 20px;
   }
 
-  .h1-center-acerca{
-    text-align: center;
-  }
+  /* Experiencia laboral */
 
-  .background-about1{
-      background-color: #E8F0F2;
-  }
-
-  .background-about2{
-    background-color: #A2DBFA;
-}
-
-.image-center-course{
+.experience{
+    width:95%;
+    height:95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: right;
+    background-color: rgba(73,157,214);
+    /* background-repeat: no-repeat; */
+    /* background-size: 50% 100%; */
     text-align: center;
 }
+
+.wordExperience{
+    padding: 50px .5em;
+  }
+
+
+  /* Cursos */
+
+.course{
+    width:95%;
+    height:95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: right;
+    background-color: #1a46df;
+    /* background-color: white;
+    color: black; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 50% 100%; */
+    text-align: center;
+}
+  .wordCourse{
+    text-align: center;
+    padding: 50px .5em;    
+  }
+
+/* PAGINA PROYECTOS */
+
+/* Title */
+
+.wordProyectos{
+    text-align: center;
+    padding: 50px .5em;   
+}
+
+.wordAllProjects{
+    padding: 50px .5em; 
+}
+
+.projectsBac{
+    width:95%;
+    height:95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 5px .10em; 
+    /* background-color: white;
+    color: black; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 50% 100%; */
+    text-align: center;
+}
+
+.centerProjects{
+    width:95%;
+    height:95%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.dashPython{
+    width:95%;
+    height:95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    /* text-align: justify; */
+    padding: 50px .5em; 
+    background-color: rgba(73,157,214);
+}
+
+
+.plotlyPython{
+    width:95%;
+    height:95%;
+    margin: 10px auto;
+    border-radius: 10px;
+    /* text-align: justify; */
+    padding: 50px .5em; 
+}
+
+.pWork{
+    text-align: justify;
+}
+
+
+.button {
+    background-color: #1a46df; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
