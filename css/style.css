@@ -1,14 +1,9 @@
-@import url('https://fontlibrary.org/face/isabella-sans');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html {
-    /* font-size: 62.5%; */
-    font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -18,10 +13,6 @@ li {
 a {
     text-decoration: none;
 }
-
-/* .header{
-    border-bottom: 1px solid #AFAAAA;                border header
-} */
 
 .navbar {
     display: flex;
@@ -137,6 +128,8 @@ a {
 
     /* Color font */
     color:#FFFFFF;
+    font-family: 'Itim', cursive;
+    font-size: 130%;
 }
 
 /* Portada */
@@ -157,6 +150,7 @@ a {
 
 .h2Letter{
     padding: 200px .5em;
+
 }
 
 .h3Letter{
@@ -290,6 +284,7 @@ a {
     text-align: right;
     background-color: #1a46df;
     text-align: center;
+    padding: 60px .5em;
 }
 
 .wordEducation{
@@ -381,6 +376,12 @@ tr:hover{
   .wordCourse{
     text-align: center;
     padding: 50px .5em;    
+  }
+
+  .wordPaCourse{
+    text-align: left;
+    /* padding: 50px .5em;   */
+    font-size: 80%;
   }
 
 /* PAGINA PROYECTOS */
