@@ -39,6 +39,7 @@ a {
 .nav-menu {
     display: flex;
     justify-content: space-between;
+    z-index:1; /* Posiciona primero el menu */
     align-items: center;
 
 }
