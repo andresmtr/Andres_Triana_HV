@@ -39,7 +39,7 @@ a {
 .nav-menu {
     display: flex;
     justify-content: space-between;
-    z-index:0; /* Posiciona primero el menu */
+    z-index:99; /* Posiciona primero el menu */
     align-items: center;
 
 }
@@ -66,7 +66,7 @@ a {
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
-        position: fixed;
+        position: absolute;
         left: -100%;
         top: 5rem;
         flex-direction: column;
@@ -78,6 +78,7 @@ a {
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 3;
     }
 
     .nav-menu.active {
@@ -428,12 +429,9 @@ tr:hover{
     height:95%;
     margin: 10px auto;
     border-radius: 10px;
-    padding: 5px .10em; 
-    /* background-color: white;
-    color: black; */
-    /* background-repeat: no-repeat; */
-    /* background-size: 50% 100%; */
+    /* padding: 5px .10em;  */
     text-align: center;
+    z-index: 2;
 }
 
 .centerProjects{
@@ -441,26 +439,46 @@ tr:hover{
     height:95%;
     margin: 10px auto;
     text-align: center;
+    
 }
 
 .dashPython{
     width:95%;
     height:95%;
-    margin: 10px auto;
+    /* margin: 10px auto; */
     border-radius: 10px;
     /* text-align: justify; */
     padding: 50px .5em; 
     background-color: rgba(73,157,214);
 }
 
+/* .corr-row{
+    z-index: 1;
+} */
 
-.plotlyPython{
-    width:95%;
-    height:95%;
-    margin: 10px auto;
-    border-radius: 10px;
-    /* text-align: justify; */
-    padding: 50px .5em; 
+.colprin{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.colpart-1{
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .colprin { grid-template-columns: repeat(1, 1fr); }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .colpart-1{
+        width: 98%;
+    }
+    iframe{
+        width: 98%;
+    }
 }
 
 .pWork{
