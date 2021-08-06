@@ -39,7 +39,7 @@ a {
 .nav-menu {
     display: flex;
     justify-content: space-between;
-    z-index:1; /* Posiciona primero el menu */
+    z-index:0; /* Posiciona primero el menu */
     align-items: center;
 
 }
@@ -124,8 +124,12 @@ a {
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(105,143,255,1) 68%, rgba(0,47,255,0.9738270308123249) 100%); */
     /* background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(89,91,98,1) 91%, rgba(2,9,37,0.9738270308123249) 100%); */
-    background: rgb(73,157,214);
-    background: linear-gradient(180deg, rgba(73,157,214,1) 0%, rgba(26,70,223,1) 43%, rgba(2,9,37,0.9738270308123249) 100%);
+    /* background: rgb(73,157,214);
+    background: linear-gradient(180deg, rgba(73,157,214,1) 0%, rgba(26,70,223,1) 43%, rgba(2,9,37,0.9738270308123249) 100%); */
+
+    background: rgb(120,122,145);
+    background: linear-gradient(180deg, rgba(120,122,145,1) 0%, rgba(20,30,97,1) 46%, rgba(15,4,76,1) 100%);
+
 
     /* Color font */
     color:#FFFFFF;
@@ -142,7 +146,8 @@ a {
     margin: 10px auto;
     border-radius: 10px;
     text-align: right;
-    background-color: #1a46df;
+    /* background-color: #1a46df; */
+    background-color: rgb(52, 60, 151);
     background-image: url('../background/me.svg');
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -219,10 +224,28 @@ a {
     grid-gap: 10px;
 }
 
-.gridData{
+.gridback{
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px .5em;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
+
+.gridData1{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px .5em;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
+
+.gridData2{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 20px .5em;
     grid-auto-rows: 100px;
     grid-gap: 10px;
@@ -283,7 +306,8 @@ a {
     margin: 10px auto;
     border-radius: 10px;
     text-align: right;
-    background-color: #1a46df;
+    /* background-color: #1a46df; */
+    background-color: rgb(52, 60, 151);
     text-align: center;
     padding: 60px .5em;
 }
@@ -371,7 +395,8 @@ tr:hover{
     height:95%;
     margin: 10px auto;
     border-radius: 10px;
-    background-color: #1a46df;
+    /* background-color: #1a46df; */
+    background-color: rgb(52, 60, 151);
     text-align: center;
 }
   .wordCourse{
@@ -447,9 +472,15 @@ tr:hover{
     background-color: #1a46df; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    margin: 20px auto;
+    padding: 20px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
+
+.video{
+    margin: 20px auto;
+    padding: 20px .5em;
+}
